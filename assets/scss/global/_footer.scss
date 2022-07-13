@@ -1,0 +1,35 @@
+footer {
+	background-color: map-get($colors, carbon);
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr;
+	img {
+		margin: 1.5rem;
+	}
+}
+
+.footer_logo {
+	margin-top: 2rem;
+	height: 100px;
+	width: auto;
+}
+
+.footer_redes {
+	margin: 2rem 1.5rem;
+	width: 16rem;
+	justify-self: end;
+	p {
+		color: map-get($colors, blanco);
+		font-family: $parrafo;
+		font-weight: 500;
+		font-size: 1rem;
+		text-align: center;
+	}
+	a {
+		margin: 1rem;
+		position: relative;
+		left: 2rem;
+		font-size: 2rem;
+		text-decoration: none;
+	}
+}

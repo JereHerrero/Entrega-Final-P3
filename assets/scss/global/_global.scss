@@ -1,5 +1,8 @@
 body {
 	background: url(../img/textura_bg.jpg);
+	display: grid;
+	min-height: 100vh;
+	grid-template-rows: auto 1fr auto;
 }
 
 a {
@@ -32,10 +35,11 @@ h3 {
 p {
 	font-family: $parrafo;
 	font-size: 1.1rem;
+	font-weight: 500;
 }
 
 .texto_negrita {
-	font-weight: bold;
+	font-weight: 600;
 }
 
 .h2_center {
